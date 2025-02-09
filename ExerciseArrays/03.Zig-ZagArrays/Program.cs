@@ -5,13 +5,30 @@
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
+            bool isFirstSelected = true;
+            string[] firstArr = new string[n];
+            string[] secondArr = new string[n];
+
             for (int i = 0; i < n; i++)
             {
-                int element1 = int.Parse(Console.ReadLine());
-                int element2 = int.Parse(Console.ReadLine());
+                string numbers = Console.ReadLine();
+                string[] numbersAsArray = numbers.Split();
+                if (isFirstSelected)
+                {
+                    firstArr[i] = numbersAsArray[0];
+                    secondArr[i] = numbersAsArray[1];
+                }
+                else
+                {
+                    firstArr[i] = numbersAsArray[1];
+                    secondArr[i] = numbersAsArray[0];
+                }
 
-                Console.WriteLine(element1);
+                isFirstSelected = !isFirstSelected;
             }
+
+            Console.WriteLine(string.Join(" ", firstArr));
+            Console.WriteLine(string.Join(" ", secondArr));
         }
     }
 }
