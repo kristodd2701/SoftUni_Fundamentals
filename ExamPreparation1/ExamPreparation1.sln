@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterStrike", "ExamPreparation1\CounterStrike.csproj", "{834F47F7-7E98-4CDC-A1CE-3CCF0B42BBAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureHunt", "TreasureHunt\TreasureHunt.csproj", "{1E6881B5-AB5C-400F-B71F-8379F99F5AA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834F47F7-7E98-4CDC-A1CE-3CCF0B42BBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834F47F7-7E98-4CDC-A1CE-3CCF0B42BBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834F47F7-7E98-4CDC-A1CE-3CCF0B42BBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834F47F7-7E98-4CDC-A1CE-3CCF0B42BBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6881B5-AB5C-400F-B71F-8379F99F5AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6881B5-AB5C-400F-B71F-8379F99F5AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6881B5-AB5C-400F-B71F-8379F99F5AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6881B5-AB5C-400F-B71F-8379F99F5AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {902A29C1-2E7D-43C3-903D-46D82B9DADFC}
+	EndGlobalSection
+EndGlobal
